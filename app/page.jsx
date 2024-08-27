@@ -1,6 +1,9 @@
 "use client";
-import Hero from '@/components/Hero'
 import { useEffect } from 'react';
+//component
+import Hero from '@/components/Hero'
+import Explore  from '@/components/Explore';
+import About from '@/components/About';
 
 const Home = () => {
 
@@ -16,7 +19,8 @@ const Home = () => {
   return (
     <div className='h-full overflow-x-hidden'>
       <Hero/>
-
+      <Explore/>
+      <About />
       <div className="h-[4000px]"></div>
     </div>
   )
@@ -24,4 +28,4 @@ const Home = () => {
 }
 
 
-export default Home
+export default Home;
