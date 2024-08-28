@@ -12,7 +12,7 @@ import Badge from "./Badge"
             <div className="hidden relative xl:flex flex-1 justify-center items-center">
                 <div className="w-full h-full absolute z-40 top-0 bg-black/60"></div>
                 <Image 
-                src="/img.png" 
+                src="/assets/opening-hours/img.png" 
                 fill 
                 alt="" 
                 quality={100} 

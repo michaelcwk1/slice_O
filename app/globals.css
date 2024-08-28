@@ -6,7 +6,12 @@
   body {
     @apply font-secondary text-secondary leading-relaxed;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply text-primary font-primary;
   }
   .h1 {
@@ -21,7 +26,6 @@
   .btn {
     @apply min-w-[156px] h-[54px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
   }
-
 }
 
 .swiper-button-next::after,
