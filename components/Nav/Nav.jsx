@@ -23,7 +23,7 @@ const Nav = () => {
     animate="open"
     exit="close"
     initial="initial" 
-    className="bg-primary overflow-hidden absolute z-[50] -top-full w-full ">
+    className="bg-red-800 overflow-hidden absolute z-[50] -top-full w-full ">
     <div className="container mx-auto h-full flex items-center justify-center">
       <NavList />
 

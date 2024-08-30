@@ -22,17 +22,17 @@ const Header = () => {
             className="w-8 h-6 text-accent relative flex items-center justify-center z-[60] outline-none"
           >
             <span
-              className={`w-full h-[1.5px] bg-current absolute left-0 transition-all duration-300 ${
+              className={`w-full h-[1.5px] bg-white absolute left-0 transition-all duration-300 ${
                 navActive ? "top-1/2 rotate-45" : "top-0"
               }`}
             ></span>
             <span
-              className={`w-full h-[1.5px] bg-current absolute left-0 transition-all duration-300 ${
+              className={`w-full h-[1.5px] bg-white absolute left-0 transition-all duration-300 ${
                 navActive ? "opacity-0" : "top-1/2"
               }`}
             ></span>
             <span
-              className={`w-full h-[1.5px] bg-current absolute left-0 transition-all duration-300 ${
+              className={`w-full h-[1.5px] bg-white absolute left-0 transition-all duration-300 ${
                 navActive ? "-rotate-45 top-1/2" : "bottom-0"
               }`}
             ></span>

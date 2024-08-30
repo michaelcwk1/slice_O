@@ -29,7 +29,7 @@ import Badge from "./Badge"
             
             <div className="z-20 flex flex-col items-center justify-center">
                 <h2 className="h2 text-white mb-4 ">Opening Hours</h2>
-                <Separator bg="accent"/>
+                <Separator />
                 <div className="mt-12 relative w-[300px] h-[220px] xl:w-[470px] xl:h-[280px]">
                     <Image src="/assets/opening-hours/program-badge.svg"
                     fill className="object-contain " quality={100} priority alt=""

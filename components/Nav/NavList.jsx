@@ -43,13 +43,13 @@
 
     const NavList = () => {
     return (
-        <ul className="flex flex-col gap-8 font-primary text-4xl font-semibold text-accent items-center uppercase">
+        <ul className="flex flex-col gap-8 font-primary text-5xl font-bold text-white items-center uppercase">
         {Links.map((link, index) => {
             return (
             <Link 
                 href={link.href} 
                 key={index} 
-                className="flex overflow-hidden hover:text-white transition-all"
+                className="flex overflow-hidden hover:text-black transition-all"
             >
                 {getLetter(link.name)}
             </Link>

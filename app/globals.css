@@ -24,7 +24,7 @@
     @apply text-lg;
   }
   .btn {
-    @apply min-w-[156px] h-[54px] px-6 bg-accent hover:bg-accent-hover text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
+    @apply min-w-[156px] h-[54px] px-6 bg-white hover:bg-red-600 text-primary text-[13px] uppercase font-semibold tracking-[.15em] transition-all;
   }
 }
 
