@@ -12,10 +12,9 @@
                     <div className="mb-6 flex justify-center items-center">
                     <Image src="/assets/explore/icons/3.svg" width={100} height={100} alt="" />
                     </div>
-                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Rich Espresso Blends</h3>
+                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Crispy Golden Fries</h3>
                     <p className="max-w-[400px]">
-                    Indulge in the deep, robust flavors of our expertly crafted espresso blends. Perfect for a quick
-                    pick-me-up or a leisurely afternoon treat.
+                    Delight in the crispy, golden perfection of our seasoned fries—an irresistible side that pairs perfectly with your favorite pizza.
                     </p>
                 </div>
                 </div>
@@ -25,10 +24,9 @@
                     <div className="mb-6 flex justify-center items-center">
                     <Image src="/assets/explore/icons/2.svg" width={100} height={100} alt="" />
                     </div>
-                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Classic Drip Coffee</h3>
+                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Signature Pizza Creations</h3>
                     <p className="max-w-[400px]">
-                    Enjoy the comforting taste of our classic drip coffee, brewed to perfection. A timeless choice for
-                    coffee enthusiasts who appreciate simplicity.
+                    Experience the ultimate crafted with the freshest ingredients and perfectly baked to a golden, cheesy perfection. A slice of heaven in every bite.
                     </p>
                 </div>
                 </div>
@@ -37,7 +35,7 @@
             <div className="hidden xl:flex justify-center">
                 <div className="relative w-[322px] h-[580px]">
                 <Image 
-                src="/assets/explore/cup.png" alt="" fill className="object-cover" quality={100} priority data-scroll data-scroll-speed="0.1"/>
+                src="/assets/explore/piz.png" alt="" fill className="object-cover" quality={100} priority data-scroll data-scroll-speed="0.1"/>
                 </div>
             </div>
             <div className="flex-1  flex flex-col justify-around  text-center xl:text-left gap-12 xl:gap-0 max-w-[400px] mx-auto xl:max-w-none xl:mx-0">
@@ -47,10 +45,9 @@
                     <div className="mb-6 flex justify-center items-center">
                     <Image src="/assets/explore/icons/4.svg" width={100} height={100} alt="" />
                     </div>
-                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Smooth Cold Brews</h3>
+                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Savory Spaghetti Bowls</h3>
                     <p className="max-w-[400px]">
-                    Refresh yourself with our smooth and invigorating cold brew options. Ideal for those warm days when
-                    you need a cool, caffeinated boost.
+                    Savor the rich, hearty flavors of our spaghetti, cooked to perfection and topped with a savory sauce. A comforting classic that's perfect for any pizza night.
                     </p>
                 </div>
                 </div>
@@ -60,10 +57,9 @@
                     <div className="mb-6 flex justify-center items-center">
                     <Image src="/assets/explore/icons/5.svg" width={100} height={100} alt="" />
                     </div>
-                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Flavorful Latte Varieties</h3>
+                    <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Garlic Bread Bliss</h3>
                     <p className="max-w-[400px]">
-                    Experience the rich and creamy flavors of our diverse latte selections. From vanilla to caramel, we have a latte to suit every taste.
-
+                    Enjoy the warm, buttery goodness of our garlic bread, infused with rich garlic flavor and baked to a golden crisp. The perfect start to your pizza feast.
                     </p>
                 </div>
                 </div>
