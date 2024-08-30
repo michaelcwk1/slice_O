@@ -6,7 +6,7 @@ import { IoMdQuote } from "react-icons/io";
 
 const testimonials = [
     {
-        message: "The pizza here is outstanding! The crispy crust and generous toppings make every bite perfect.",
+        message: "The pizza here is outstanding! The crispy crust toppings make every bite perfect.",
         name: "Diana Putri",
         profession: "Food Blogger",
     },
@@ -16,7 +16,7 @@ const testimonials = [
         profession: "Photographer",
     },
     {
-        message: "Pizza with rich flavors and a great variety of options. Don’t miss the Garlic Bread—it’s absolutely delicious!",
+        message: "Pizza with rich flavors and a great variety of options. Marvelous",
         name: "Rina Santoso",
         profession: "Event Planner",
     },
