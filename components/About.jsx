@@ -9,19 +9,19 @@ import Separator from "./Separator";
 
 const data =[ 
     {
-        imgSrc: "/assets/about/photo-1.jpg",
+        imgSrc: "/assets/about/4.png",
         title: "Our Journey",
-        description: "Founded in 2000, Zenbrew started as a small café with a vision for exceptional coffee. Now a beloved brand, we're known for quality and sustainability. Driven by passion, we create memorable coffee experiences. Join us in exploring coffee, one cup at a time.",
+        description: "Established in 2000, Slice O began as a humble pizzeria with a passion for authentic flavors. Today, we've grown into a beloved brand known for our dedication to quality and innovation. Join us as we continue our journey, crafting unforgettable pizza experiences one slice at a time.",
     },
     {
-        imgSrc: "/assets/about/photo-2.jpg",
+        imgSrc: "/assets/about/3.png",
         title: "Our Promise",
-        description: "At Zenbrew, we promise the finest coffee with a positive impact. We source beans from sustainable farms, respecting people and the planet. Our meticulous roasting ensures a rich, satisfying experience. We are committed to quality, sustainability, and community.",
+        description: "At Slice O, we promise to deliver the freshest, most delicious pizza with a commitment to excellence. We source only the best ingredients, ensuring every bite is a celebration of flavor. Our dedication to quality, sustainability, and community is at the heart of everything we do.",
     },
     {
-        imgSrc: "/assets/about/photo-3.jpg",
+        imgSrc: "/assets/about/2.png",
         title: "Our Team",
-        description: "At Zenbrew, our dedicated team is behind every great cup. Our skilled baristas and expert roasters work with passion and precision, making each coffee experience special. Meet the people who bring creativity and care to every cup and learn their unique stories.",
+        description: "At Slice O, our team is the heart of our pizzeria. Our talented chefs and passionate staff work tirelessly to create pizzas that delight and inspire. Meet the people who infuse every slice with creativity and care, making each meal at Slice O a truly special experience.",
     },
 ];
 
@@ -64,13 +64,13 @@ const About = () => {
                         <div className="container mx-auto">
                             <div className="flex gap-[30px] relative">
                             {/* text */}
-                            <div className="flex-1 flex flex-col justify-center items-center"> 
+                            <div className="flex-1 flex flex-col text-white justify-center items-center"> 
                                 <Badge containerStyles="w-[180px] h-[180px]" />
                                 <div className="max-w-[560px] text-center">
                                     {/* title */}
                                     <h2 className="h2 text-white mb-4">
                                         <span className="mr-4">{item.title.split(" ")[0]}</span>
-                                        <span className="text-accent">{item.title.split(" ")[1]}</span>
+                                        <span className="text-red-600">{item.title.split(" ")[1]}</span>
                                     </h2>
                                     {/* seperator */}
                                     <div className="mb-8">
@@ -87,7 +87,7 @@ const About = () => {
                                 </div>
                             </div>
                             {/* image */}    
-                            <div className="hidden xl:flex flex-1 w-full h-[70vh] relative">
+                            <div className="hidden xl:flex flex-1 w-full h-[75vh] relative">
                                 <Image 
                                 src={item.imgSrc}
                                 fill
