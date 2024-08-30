@@ -8,6 +8,10 @@ import Nav from "./Nav/Nav";
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
 
+  const toggleNav = () => {
+    setNavActive(!navActive);
+  };
+
   return (
     <header className="absolute top-[40px] left-0 right-0 z-[60]">
       <div className="container mx-auto">
@@ -18,7 +22,7 @@ const Header = () => {
           </Link>
           {/* nav button */}
           <button
-            onClick={() => setNavActive(!navActive)}
+            onClick={toggleNav}
             className="w-8 h-6 text-accent relative flex items-center justify-center z-[60] outline-none"
           >
             <span
@@ -39,7 +43,9 @@ const Header = () => {
           </button>
         </div>
       </div>
-      <AnimatePresence mode="wait">{navActive && <Nav />}</AnimatePresence>
+      <AnimatePresence mode="wait">
+        {navActive && <Nav setNavActive={setNavActive} />}
+      </AnimatePresence>
     </header>
   );
 };
