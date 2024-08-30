@@ -6,19 +6,19 @@ import { IoMdQuote } from "react-icons/io";
 
 const testimonials = [
     {
-        message: "The coffee here is absolutely amazing! The baristas are skilled and the atmosphere is perfect for both work and relaxation.",
-        name: "Alice Johnson", 
-        profession: "Graphic Designer",
+        message: "The pizza here is outstanding! The crispy crust and generous toppings make every bite perfect.",
+        name: "Diana Putri",
+        profession: "Food Blogger",
     },
     {
-        message: "I love coming to this cafe. The pastries are always fresh, and the staff is incredibly friendly. It's my go-to spot for meetings.",
-        name: "Michael Lee", 
-        profession: "Freelance Writer",
+        message: "My favorite spot for pizza! Authentic flavors and friendly service keep me coming back.",
+        name: "Andi Pratama",
+        profession: "Photographer",
     },
     {
-        message: "A hidden gem! The ambiance is cozy, and the menu offers a great variety. The chai latte is a must-try!",
-        name: "Samantha Green", 
-        profession: "Marketing Specialist",
+        message: "Pizza with rich flavors and a great variety of options. Don’t miss the Garlic Bread—it’s absolutely delicious!",
+        name: "Rina Santoso",
+        profession: "Event Planner",
     },
 ];
 
@@ -36,7 +36,7 @@ const Testimonials = () => {
                             <SwiperSlide key={index} className="w-full h-full">
                                 <div className="flex justify-center h-full xl:pt-14">
                                     <div className="max-w-[60%] text-primary">
-                                        <IoMdQuote className="text-6xl text-primary mb-12" />
+                                        <IoMdQuote className="text-6xl  text-primary mb-12" />
                                         <p className="text-2xl font-secondary text-center mb-8">
                                             {person.message}
                                         </p>
