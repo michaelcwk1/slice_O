@@ -10,7 +10,7 @@
                 <div className="relative flex items-start">
                 <div className="xl:max-w-[420px] xl:text-right xl:flex xl:flex-col xl:items-end">
                     <div className="mb-6 flex justify-center items-center">
-                    <Image src="/assets/explore/icons/coffee-1.svg" width={56} height={56} alt="" />
+                    <Image src="/assets/explore/icons/3.svg" width={100} height={100} alt="" />
                     </div>
                     <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Rich Espresso Blends</h3>
                     <p className="max-w-[400px]">
@@ -23,7 +23,7 @@
                 <div className="relative flex items-start">
                 <div className="xl:max-w-[420px] xl:text-right xl:flex xl:flex-col xl:items-end">
                     <div className="mb-6 flex justify-center items-center">
-                    <Image src="/assets/explore/icons/coffee-2.svg" width={56} height={56} alt="" />
+                    <Image src="/assets/explore/icons/2.svg" width={100} height={100} alt="" />
                     </div>
                     <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Classic Drip Coffee</h3>
                     <p className="max-w-[400px]">
@@ -45,7 +45,7 @@
                 <div className="relative flex items-start">
                 <div className="xl:max-w-[420px] xl:text-left xl:flex xl:flex-col xl:items-start">
                     <div className="mb-6 flex justify-center items-center">
-                    <Image src="/assets/explore/icons/coffee-3.svg" width={56} height={56} alt="" />
+                    <Image src="/assets/explore/icons/4.svg" width={100} height={100} alt="" />
                     </div>
                     <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Smooth Cold Brews</h3>
                     <p className="max-w-[400px]">
@@ -58,7 +58,7 @@
                 <div className="relative flex items-start">
                 <div className="xl:max-w-[420px] xl:text-left xl:flex xl:flex-col xl:items-start">
                     <div className="mb-6 flex justify-center items-center">
-                    <Image src="/assets/explore/icons/coffee-4.svg" width={56} height={56} alt="" />
+                    <Image src="/assets/explore/icons/5.svg" width={100} height={100} alt="" />
                     </div>
                     <h3 className="text-3xl xl:text-4xl font-primary font-bold mb-4">Flavorful Latte Varieties</h3>
                     <p className="max-w-[400px]">

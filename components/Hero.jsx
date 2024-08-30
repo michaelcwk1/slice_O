@@ -4,7 +4,7 @@ import Badge from "./Badge";
 
 const Home = () => {
   return (
-    <section className="h-[80vh] xl:h-screen relative text-white">
+    <section className="h-[100vh] xl:h-screen relative text-white">
       {/* overlay */}
       <div className="bg-hero_overlay absolute w-full h-full z-10 bg-black/[0.40]"></div>
       {/* video */}
