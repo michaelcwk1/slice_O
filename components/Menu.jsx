@@ -88,7 +88,7 @@ const Menu = () => {
                         );
                     })}
                 </div>
-                <button className="btn">View full menu</button>
+                    <button className="btn bg-red-700 text-white">View full menu</button>
             </div>
         </div>
         </section>

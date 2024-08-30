@@ -39,7 +39,7 @@ module.exports = {
       backgroundImage: {
         hero_overlay: "url('/assets/hero/hero-overlay.png')",
         opening_hours: "url('/assets/opening-hours/bg.png')",
-        footer: "url('/assets/footer/bg.png')"
+        footer: "url('/assets/footer/bg1.jpg')"
       },
     },
   },
