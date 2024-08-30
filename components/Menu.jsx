@@ -4,68 +4,68 @@ import { MenuItem } from "./MenuItem";
 
     const menuItems = [
     {
-        imgSrc: "/assets/menu/coffee-1.png",
-        name: "Espresso",
-        description: "Rich and Bold shot of coffee",
-        price: 3.3,
+        imgSrc: "/assets/menu/1.png",
+        name: "Margherita Delight",
+        description: "Classic pizza with fresh mozzarella and basil.",
+        price: 12.5,
     },
     {
-        imgSrc: "/assets/menu/coffee-2.png",
-        name: "Cappucino",
-        description: "Espresso with steamed milk and foam",
-        price: 3.2,
+        imgSrc: "/assets/menu/2.png",
+        name: "Pepperoni Feast",
+        description: "Pepperoni with melted mozzarella.",
+        price: 13.2,
     },
     {
-        imgSrc: "/assets/menu/coffee-3.png",
-        name: "Latte",
-        description: "Espresso with steamed milk ",
-        price: 3.4,
+        imgSrc: "/assets/menu/3.png",
+        name: "Veggie Supreme",
+        description: "Loaded with bell peppers, onions, and olives.",
+        price: 10.4,
     },
     {
-        imgSrc: "/assets/menu/coffee-4.png",
-        name: "Americano",
-        description: "Espresso with hot water",
+        imgSrc: "/assets/menu/4.png",
+        name: "Classic Crispy Fries",
+        description: "Golden, crispy fries seasoned to perfection.",
         price: 4.3,
     },
     {
-        imgSrc: "/assets/menu/coffee-5.png",
-        name: "Mocha",
-        description: "Espresso with chocolate and steamed milk",
+        imgSrc: "/assets/menu/5.png",
+        name: "Cheesy Loaded Fries",
+        description: "Fries topped with melted cheese and bacon.",
         price: 4.7,
     },
     {
-        imgSrc: "/assets/menu/coffee-1.png",
-        name: "Macchiato",
-        description: "Espresso with a dollop of foa,",
+        imgSrc: "/assets/menu/6.png",
+        name: "Spicy Garlic Fries",
+        description: "Crispy fries with garlic and spicy seasoning.",
         price: 3.3,
     },
     {
-        imgSrc: "/assets/menu/coffee-2.png",
-        name: "Flat White",
-        description: "Espresso with microfoam milk",
+        imgSrc: "/assets/menu/7.png",
+        name: "Spaghetti Bolognese",
+        description: "Hearty meat sauce with spaghettie",
+        price: 13.73,
+    },
+    {
+        imgSrc: "/assets/menu/8.png",
+        name: "Spaghetti Carbonara",
+        description: "Creamy pasta with pancetta and Parmesan.",
+        price: 10.5,
+    },
+    {
+        imgSrc: "/assets/menu/9.png",
+        name: "Classic Garlic Bread",
+        description: "Crispy bread with garlic and herbs.",
+        price: 3.3,
+    },
+    {
+        imgSrc: "/assets/menu/10.png",
+        name: "Cheesy Garlic Bread",
+        description: "Garlic bread topped with melted mozzarella.",
         price: 4.23,
     },
-    {
-        imgSrc: "/assets/menu/coffee-3.png",
-        name: "Iced Coffee",
-        description: "Chilled coffe over ice",
-        price: 3.73,
-    },
-    {
-        imgSrc: "/assets/menu/coffee-4.png",
-        name: "Affogato",
-        description: "Espresso shot over vanilla ice cream",
-        price: 3.73,
-    },
-    {
-        imgSrc: "/assets/menu/coffee-5.png",
-        name: "Irish Coffee",
-        description: "Coffee with irish whiskey and cream",
-        price: 3.3,
-    },
-    ];
+];
 
-    const Menu = () => {
+const Menu = () => {
     return (
         <section className="pt-12 pb-16 xl:pt-16 xl:pb-36" id="menu">
         <div className="container mx-auto">
@@ -75,7 +75,7 @@ import { MenuItem } from "./MenuItem";
                 <Separator bg="accent"/>
             </div>
             <p className="text-center max-w-[620px] mx-auto">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque alias, deleniti adipisci ipsum quod minima excepturi tenetur rem ducimus velit ipsam totam, maiores aspernatur assumenda dolor eos. Et, non veniam.
+            Discover a delightful selection of our signature dishes. Each item is crafted with care and passion to ensure the best dining experience. From our mouthwatering pizzas and hearty pastas to crispy fries and savory garlic bread, there’s something to satisfy every craving. Enjoy a taste of excellence in every bite!
             </p>
             </div>
             {/* menu btn */}
