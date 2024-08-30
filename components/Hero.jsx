@@ -16,21 +16,21 @@ const Home = () => {
       > <source src="/assets/hero/video1.mp4" type="video/mp4"/>
       Your browser does not support the video tag.
       </video>
-      <div className="container mx-auto h-full flex flex-col xl:flex-col items-center z-30 relative">
+      <div className="container mx-auto  h-full flex flex-col xl:flex-col items-center z-30 relative">
         {/* text */}
         <div data-scroll 
         data-scroll-speed="0.4" 
         className="flex-1 flex flex-col text-center justify-center items-center xl:pb-12 gap-10 h-full">
           {/* badge */}
           <div className="flex flex-col items-center">
-          <Badge containerStyles="hidden xl:flex xl:w-[250px] xl:h-[250px]"/>
-          <h1 className="h1 text-white"> Share
+          <Badge containerStyles="w-[150px] h-[150px] xl:w-[250px] xl:h-[250px] flex "/>
+          <h1 className="text-5xl md:text-6xl xl:text-8xl  font-bold text-white"> Share
             <span className="text-red-600"> Together</span> 
           </h1>
           </div>
           {/* Separator */}
           <Separator />
-          <p className="lead font-light max-w-[300px] md:max-w-[430px] xl:max-w;[560px] mb-4">Share the joy of exceptional pizza in our cozy space, where every slice brings us closer together.</p>
+          <p className="lead font-light max-w-[300px] md:max-w-[430px] xl:max-w;[560px] mb-0">Share the joy of exceptional pizza in our cozy space, where every slice brings us closer together.</p>
       <button className="btn"> Our menu</button>
         </div>
       </div>
