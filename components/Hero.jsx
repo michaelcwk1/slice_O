@@ -20,7 +20,7 @@ const Home = () => {
         {/* text */}
         <div data-scroll 
         data-scroll-speed="0.4" 
-        className="flex-1 flex flex-col text-center justify-center items-center xl:pb-12 gap-10 h-full">
+        className="flex-1 flex flex-col text-center justify-center items-center  gap-10 h-full">
           {/* badge */}
           <div className="flex flex-col items-center">
           <Badge containerStyles="w-[150px] h-[150px] xl:w-[250px] xl:h-[250px] flex "/>
@@ -29,7 +29,7 @@ const Home = () => {
           </h1>
           </div>
           {/* Separator */}
-          <Separator />
+          <Separator containerStyles=""/>
           <p className="lead font-light max-w-[300px] md:max-w-[430px] xl:max-w;[560px] mb-0">Share the joy of exceptional pizza in our cozy space, where every slice brings us closer together.</p>
       <button className="btn"> Our menu</button>
         </div>

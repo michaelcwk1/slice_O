@@ -10,7 +10,7 @@ import React from 'react'
     
     
         return (
-        <div className='relative w-[168px] h-[26px] mx-auto'>
+        <div className='relative w-[228px] h-[46px] mx-auto'>
             <Image src={imgSrc} fill alt='' />
         
         </div>
